@@ -1,0 +1,72 @@
+@import url("../css/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+:root {
+    --title-color: #48556A;
+    --text-color: #6E8098;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #ECF2F8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 4.7rem 1.5rem 0;
+    border-radius: 18px;
+}
+
+.about-product img {
+    width: 100%;
+    /*clip-path: inset(0 0 18% 0); para cortar a imagem*/
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.title {
+    color: var(--title-color);
+    font-weight: 700;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.0125rem;
+    padding: 4rem 2rem .75rem 2rem;
+}
+
+.text {
+    color: var(--text-color);
+    font-size: 0.8125rem;
+    line-height: 1.25rem; /* 153.846% */
+    letter-spacing: 0.00763rem;
+    padding: 0 2rem 1.25rem 2rem;
+}
+
+.share {
+    display: flex;
+    padding: 0 2rem 1.25rem;
+    align-items: center;
+}
+
+.author-info {
+    padding-left: 1rem;
+}
+
+.name-author {
+    color: var(--title-color);
+    font-weight: 700;
+    line-height: 1.25rem; /* 153.846% */
+    letter-spacing: 0.00763rem;
+}
+
+.publication-date {
+    color: var(--text-color);
+    line-height: 1.25rem; /* 153.846% */
+    letter-spacing: 0.00763rem;
+    font-size: 0.8125rem;
+}
+
+#btn-share-options {
+    position: relative;
+    left: 3rem;
+}
