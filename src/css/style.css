@@ -17,9 +17,10 @@ body {
     background-color: #ffffff;
     margin: 4.7rem 1.5rem 0;
     border-radius: 18px;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
 }
 
-.about-product img {
+.product {
     width: 100%;
     /*clip-path: inset(0 0 18% 0); para cortar a imagem*/
     border-top-left-radius: 18px;
@@ -69,4 +70,23 @@ body {
 #btn-share-options {
     position: relative;
     left: 3rem;
+}
+
+@media (1220px <= width) {
+    .container {
+        margin-inline: 22rem;
+        flex-direction: row;
+        margin-top: 15%;
+    }
+
+    .product {
+        width: 70%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 18px;
+    }
+
+    .title {
+        padding-top: 2rem;
+    }
+
 }
