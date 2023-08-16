@@ -72,6 +72,30 @@ body {
     left: 3rem;
 }
 
+.container-shared {
+    position: fixed;
+    top: 60%;
+    background: #48556A;
+    display: flex;
+    align-items: center;
+    gap: 1.31rem;
+    border-radius: 0 0 18px 18px;
+    width: 80%;
+    padding: 1.36rem 0 1.36rem 2rem;
+}
+
+.container-shared h3 {
+    text-transform: uppercase;
+    color: #9DAEC2;
+    line-height: 1.25rem; /* 153.846% */
+    letter-spacing: 0.3125rem;
+    font-size: 0.8125rem;
+}
+
+#btn-sair {
+    padding-left: 3.5rem;
+}
+
 @media (1220px <= width) {
     .container {
         margin-inline: 22rem;
@@ -88,5 +112,4 @@ body {
     .title {
         padding-top: 2rem;
     }
-
 }
